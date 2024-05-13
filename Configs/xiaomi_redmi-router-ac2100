@@ -4,3 +4,12 @@ CONFIG_TARGET_ramips_mt7621_DEVICE_xiaomi_redmi-router-ac2100=y
 
 # CONFIG_SIGNATURE_CHECK is not set
 # CONFIG_SIGNED_PACKAGES is not set
+# n2n 
+CONFIG_PACKAGE_luci-app-n2n=y
+CONFIG_PACKAGE_luci-i18n-n2n-zh-cn=y
+CONFIG_PACKAGE_n2n=y
+
+# openconnect
+CONFIG_PACKAGE_openconnect=y
+CONFIG_PACKAGE_luci-proto-openconnect=y
+CONFIG_OPENCONNECT_OPENSSL=y
